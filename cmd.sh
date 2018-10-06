@@ -49,3 +49,10 @@ sudo umount mnt/fat32
 sudo umount mnt/ext4 #cp kernel and device blob
 
 kernel=kernel-myconfig.img
+
+# install SSFHS
+sudo apt-get install sshfs
+sudo sshfs -o allow_other,defer_permissions,IdentityFile=~/.ssh/id_rsa pi@192.168.0.125:/home/pi/  /Users/kevinliu/pi/raspberry/
+
+# install boost
+http://osdevlab.blogspot.com/2016/02/how-to-install-latest-boost-library-on.html
