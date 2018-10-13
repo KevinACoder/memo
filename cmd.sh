@@ -5,6 +5,7 @@ uname -r --kernel-release
 
 # build and install linux kernel
 # https://www.raspberrypi.org/documentation/linux/kernel/building.md
+# https://dev.to/landonp1203/how-to-properly-set-up-git-on-your-computer-33eo
 sudo apt-get install git bc #install git and log in
 git clone --depth=1 https://github.com/raspberrypi/linux  #get src
 git clone --depth=1 --branch rpi-4.18.y https://github.com/raspberrypi/linux  #get src of specific branch
