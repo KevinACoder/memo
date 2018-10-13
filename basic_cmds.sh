@@ -16,6 +16,7 @@ esc #shift from insert mode to cmd mode
 :wq #save and exit
 :set number #show line number
 :q!  #
+ctrl + alt + '+'/'-' #ctrl font size
 
 //replace character in file
 cat ./rcd.txt | tr '\|' ' ' > ./rcd.txt
