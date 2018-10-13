@@ -15,3 +15,7 @@ a/A/i/I/o/O  #shift from cmd mode to insert mode
 esc #shift from insert mode to cmd mode
 :wq #save and exit
 :set number #show line number
+:q!  #
+
+//replace character in file
+cat ./rcd.txt | tr '\|' ' ' > ./rcd.txt
